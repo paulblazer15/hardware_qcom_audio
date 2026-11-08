@@ -235,7 +235,7 @@ persist.vendor.audio.ras.enabled=false
 
 #Buffer size in kbytes for compress offload playback
 PRODUCT_PROPERTY_OVERRIDES += \
-vendor.audio.offload.buffer.size.kb=32
+vendor.audio.offload.buffer.size.kb?=32
 
 #Minimum duration for offload playback in secs
 PRODUCT_PROPERTY_OVERRIDES += \
